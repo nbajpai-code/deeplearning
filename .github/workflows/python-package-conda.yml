@@ -31,4 +31,4 @@ jobs:
     - name: Test with pytest
       run: |
         conda install pytest
-        pytest --no-test-found-exit-code=0
+        pytest --no-tests-found-exit-code=0
